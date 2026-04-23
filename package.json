@@ -1,0 +1,9 @@
+{
+  "name": "validation-api-service",
+  "version": "0.1.0",
+  "description": "Accepts mobilityDCAT-AP validation requests, guards against abuse, creates jobs.",
+  "type": "module",
+  "dependencies": {
+    "ipaddr.js": "^2.2.0"
+  }
+}
