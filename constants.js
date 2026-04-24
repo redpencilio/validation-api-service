@@ -4,9 +4,6 @@ const envInt = (name, fallback) => parseInt(process.env[name], 10) || fallback;
 export const MU_APPLICATION_GRAPH =
   env('MU_APPLICATION_GRAPH', 'http://mu.semte.ch/graphs/public');
 
-export const TASKS_GRAPH = MU_APPLICATION_GRAPH;
-export const DATA_GRAPH = MU_APPLICATION_GRAPH;
-
 export const JOB_URI_PREFIX = 'http://redpencil.data.gift/id/job/';
 export const TASK_URI_PREFIX = 'http://redpencil.data.gift/id/task/';
 export const CONTAINER_URI_PREFIX = 'http://redpencil.data.gift/id/container/';
